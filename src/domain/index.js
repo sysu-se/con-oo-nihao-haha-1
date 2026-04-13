@@ -218,7 +218,7 @@ class Game {
 export function createSudoku(input) {
   return new Sudoku(input);
 }
-
+    
 /**
  * 从序列化的JSON数据恢复数独对象
  * @param {object} json - sudoku.toJSON()的输出结果
